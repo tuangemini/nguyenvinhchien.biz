@@ -19,10 +19,10 @@ const BLOG_DATA = {
     portraitWhite: "assets/images/chien-portrait.jpg",
     location: "Việt Nam (Cung đường biển)",
     stats: {
-      totalDistance: "4,286 km",
-      totalDays: "485 ngày",
-      totalCalories: "318,500 kcal",
-      weeklyAvg: "42.5 km/tuần",
+      totalDistance: "4,302 km",
+      totalDays: "488 ngày",
+      totalCalories: "319,600 kcal",
+      weeklyAvg: "43.2 km/tuần",
       ageVitality: "U60+ Phong độ U40",
       morningRoutine: "5:30 AM mỗi sáng"
     },
@@ -56,6 +56,54 @@ const BLOG_DATA = {
   },
 
   runs: [
+    {
+      id: "run-2026-10-18",
+      date: "18/10/2026",
+      dayOfWeek: "Chủ Nhật",
+      title: "Bình Minh Cuối Tuần Rạng Rỡ - 8.20 km",
+      distance: 8.20,
+      duration: "01:14:52",
+      totalTime: "01:15:10",
+      pace: "9:08 /km",
+      calories: 580,
+      cadence: "135 spm",
+      timeStart: "05:45:12 (GMT+7)",
+      route: "Võ Nguyên Giáp • Trần Phú • Bờ Kè Biển • Quảng Trường",
+      shirtColor: "red",
+      shirtLabel: "Áo Đỏ Sao Vàng - 'Tôi yêu Việt Nam!'",
+      posterImage: "assets/images/chien-run-white-816km.jpg",
+      quote: "Bước chạy sớm mai đón bình minh - Trái tim ngập tràn yêu thương và năng lượng lành.",
+      story: "Sáng Chủ Nhật 18/10 thật tuyệt diệu! Đôi chân bước ra đường trong làn gió biển mát rượi, hít căng lồng ngực không khí trong lành. Pace 9:08/km rất thanh thoát, nụ cười luôn nở trên môi khi gặp lại những người bạn chạy phong trào. Cảm tạ cuộc đời cho tôi một thân thể khỏe mạnh!",
+      highlights: [
+        "Hoàn thành 8.20 km nhịp tim Zone 2",
+        "Tiêu hao 580 kcal năng lượng tích cực",
+        "Cadence 135 spm tối ưu nhịp thở"
+      ]
+    },
+    {
+      id: "run-2026-10-17",
+      date: "17/10/2026",
+      dayOfWeek: "Thứ Bảy",
+      title: "Năng Lượng Kết Nối Đầu Ngày - 7.55 km",
+      distance: 7.55,
+      duration: "01:09:18",
+      totalTime: "01:09:35",
+      pace: "9:11 /km",
+      calories: 538,
+      cadence: "132 spm",
+      timeStart: "06:05:30 (GMT+7)",
+      route: "Võ Nguyên Giáp • Quang Trung • Nguyễn Huệ",
+      shirtColor: "blue",
+      shirtLabel: "Áo Xanh Hy Vọng - 'Mỗi Bước Chạy Một Niềm Vui'",
+      posterImage: "assets/images/chien-run-blue-747km.jpg",
+      quote: "Kỷ luật tạo nên tự do - Sống tử tế bắt đầu từ việc chăm sóc bản thân mỗi sáng.",
+      story: "Buổi chạy thứ Bảy nhẹ nhàng cùng áo xanh hy vọng. Cung đường rợp bóng cây xanh, hít thở sâu từng nhịp. Cảm giác sau 7.55km cơ thể hoàn toàn sảng khoái, tràn đầy hứng khởi cho ngày mới bên gia đình và bạn bè.",
+      highlights: [
+        "Pace 9:11 /km dưỡng sinh tim mạch",
+        "538 kcal năng lượng sạch",
+        "Guồng chân êm ái bảo vệ khớp gối"
+      ]
+    },
     {
       id: "run-2026-10-15",
       date: "15/10/2026",
