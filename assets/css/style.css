@@ -1,10 +1,13 @@
+@charset "UTF-8";
+
 /* ==========================================================================
    NGUYỄN VĨNH CHIẾN - OFFICIAL INSPIRATIONAL BLOG STYLESHEET
    Domain: https://nguyenvinhchien.biz/
    Theme: Vibrant Energy, Kindness, Athletic Elegance, 60+ Vitality
+   Typography: Be Vietnam Pro & Montserrat (100% Native Vietnamese Support)
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap');
 
 :root {
   /* Color Palette - Vibrant Athletic Light Theme */
@@ -49,8 +52,8 @@
   --radius-lg: 24px;
   --radius-full: 9999px;
 
-  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: 'Montserrat', 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   --nav-height: 76px;
   --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
