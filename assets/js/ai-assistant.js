@@ -204,7 +204,7 @@ VĂN PHONG GIAO TIẾP:
         <span>🏃‍♂️</span>
       </div>
       <div class="ai-fab-text">
-        <span class="ai-fab-title">Trợ Lý AI Anh Chiến</span>
+        <span class="ai-fab-title">Hỏi Nguyễn Vĩnh Chiến</span>
         <span class="ai-fab-sub">Hỏi bí quyết chạy bộ, sống khỏe</span>
       </div>
       <span class="ai-fab-badge">U60+</span>
@@ -225,14 +225,14 @@ VĂN PHONG GIAO TIẾP:
           </div>
           <div class="ai-profile-meta">
             <div class="ai-title">
-              <span>Trợ Lý AI Nguyễn Vĩnh Chiến</span>
-              <span class="ai-provider-pill" id="aiProviderBadge">${AI_CONFIG.provider === 'deepseek' ? 'DeepSeek' : 'Gemini'}</span>
+              <span>Nguyễn Vĩnh Chiến</span>
+              
             </div>
             <span class="ai-status-text">Mỗi Bước Chạy Một Niềm Vui • Sống Khỏe U60+</span>
           </div>
         </div>
         <div class="ai-header-actions">
-          <button class="ai-icon-btn" id="btnAiSettings" title="Cài đặt mô hình AI" aria-label="Cài đặt">⚙️</button>
+          <button class="ai-icon-btn" id="btnAiSettings" style="display:none;" aria-label="Cài đặt">⚙️</button>
           <button class="ai-icon-btn" id="btnAiClear" title="Xóa lịch sử chat" aria-label="Xóa chat">🗑️</button>
           <button class="ai-icon-btn" id="btnAiClose" title="Thu nhỏ" aria-label="Đóng">&times;</button>
         </div>
@@ -273,7 +273,7 @@ VĂN PHONG GIAO TIẾP:
             </svg>
           </button>
         </form>
-        <div class="ai-footer-note">Hỗ trợ bởi DeepSeek & Google Gemini AI • Lan tỏa năng lượng 24/7</div>
+        <div class="ai-footer-note">Nguyễn Vĩnh Chiến • Mỗi Bước Chạy Một Niềm Vui • Lan tỏa năng lượng 24/7</div>
       </div>
 
       <!-- Settings Overlay Modal -->
@@ -363,7 +363,7 @@ VĂN PHONG GIAO TIẾP:
           <div class="ai-msg-avatar">🏃‍♂️</div>
           <div class="ai-msg-bubble">
             ${formatMarkdown(text)}
-            ${sourceLabel ? `<div style="font-size:0.64rem; opacity:0.6; margin-top:5px; text-align:right;">⚡ ${sourceLabel}</div>` : ''}
+            
           </div>
         `;
       } else {
@@ -414,10 +414,10 @@ VĂN PHONG GIAO TIẾP:
         const { reply, provider } = await requestAIResponse(cleanText);
         hideTyping();
         chatHistory.push({ role: 'assistant', content: reply });
-        appendMessage('assistant', reply, provider);
+        appendMessage('assistant', reply);
       } catch (err) {
         hideTyping();
-        appendMessage('assistant', getSmartFallbackReply(cleanText), 'Anh Chiến');
+        appendMessage('assistant', getSmartFallbackReply(cleanText));
       } finally {
         sendBtn.disabled = false;
         inputField.focus();
