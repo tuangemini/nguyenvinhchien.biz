@@ -29,8 +29,8 @@ THÔNG TIN VỀ TÁC GIẢ NGUYỄN VĨNH CHIẾN:
 - Website chính thức: https://nguyenvinhchien.biz/
 - Thành tích & Thói quen chạy bộ:
   + Thói quen: Xỏ giày chạy lúc 5:30 sáng mỗi ngày, không bỏ buổi nào dù mưa hay nắng.
-  + Quãng đường tích lũy: Hơn 4,302 km qua hơn 488 ngày bền bỉ liên tục.
-  + Trung bình mỗi tuần: 42 - 45 km (mỗi buổi 7 - 8 km).
+  + Quãng đường tích lũy: Hơn 4,338 km qua hơn 493 ngày bền bỉ liên tục.
+  + Trung bình mỗi tuần: 42 - 45 km (mỗi buổi 7 - 9 km).
   + Phương pháp luyện tập: Chạy bộ nhịp tim Zone 2 (vùng nhịp tim hiếu khí, vừa chạy vừa có thể nói chuyện thoải mái, không hụt hơi, bảo vệ tim mạch, đốt mỡ thừa, bền bỉ và không gây chấn thương khớp).
 
 4 TRỤ CỘT SỐNG & BÍ QUYẾT CỦA ANH CHIẾN:

@@ -19,10 +19,10 @@ const BLOG_DATA = {
     portraitWhite: "assets/images/chien-portrait.jpg",
     location: "Việt Nam (Cung đường biển)",
     stats: {
-      totalDistance: "4,302 km",
-      totalDays: "488 ngày",
-      totalCalories: "319,600 kcal",
-      weeklyAvg: "43.2 km/tuần",
+      totalDistance: "4,338 km",
+      totalDays: "493 ngày",
+      totalCalories: "322,755 kcal",
+      weeklyAvg: "44.5 km/tuần",
       ageVitality: "U60+ Phong độ U40",
       morningRoutine: "5:30 AM mỗi sáng"
     },
@@ -56,6 +56,126 @@ const BLOG_DATA = {
   },
 
   runs: [
+    {
+      id: "run-2026-10-28",
+      date: "28/10/2026",
+      dayOfWeek: "Thứ Tư",
+      title: "Tuần Mới Tràn Đầy Năng Lượng! - 7.15 km",
+      distance: 7.15,
+      duration: "01:20:53",
+      totalTime: "01:21:10",
+      pace: "11:18 /km",
+      calories: 629,
+      cadence: "128 spm",
+      timeStart: "06:38:28 (GMT+7)",
+      route: "Công Lý • Thống Nhất • Quang Trung • Lê Văn Việt • Đình Phong",
+      shirtColor: "red",
+      shirtLabel: "Áo Đỏ Sao Vàng - 'Tôi yêu Việt Nam!'",
+      posterImage: "assets/images/chien-run-20261028-715km.jpg",
+      quote: "Mỗi bước chạy một niềm vui - Yêu thương lan tỏa từng sải bước!",
+      story: "Buổi sáng thứ Tư ngập tràn ánh nắng và sắc đỏ cờ hoa 'Tôi yêu Việt Nam!'. Hoàn thành 7.15 km qua các cung đường quen thuộc Công Lý, Thống Nhất, Quang Trung. Từng bước chân dẻo dai, nhịp thở sâu lắng, cảm nhận trọn vẹn tình yêu quê hương và sức sống dồi dào.",
+      highlights: [
+        "Cự ly 7.15 km bền bỉ vùng dưỡng sinh",
+        "Đốt cháy 629 kcal năng lượng tích cực",
+        "Áo cờ đỏ sao vàng rạng rỡ chào ngày mới"
+      ]
+    },
+    {
+      id: "run-2026-10-26",
+      date: "26/10/2026",
+      dayOfWeek: "Thứ Hai",
+      title: "Tuần Mới Vững Bước, An Vui! - 8.47 km",
+      distance: 8.47,
+      duration: "01:39:08",
+      totalTime: "01:39:30",
+      pace: "11:43 /km",
+      calories: 771,
+      cadence: "130 spm",
+      timeStart: "06:17:42 (GMT+7)",
+      route: "Võ Nguyên Giáp • Quang Trung • Ngô Quyền • Trương Văn Hải",
+      shirtColor: "white",
+      shirtLabel: "Áo Trắng Tinh Khôi - 'Tôi yêu Việt Nam!'",
+      posterImage: "assets/images/chien-run-20261026-847km.jpg",
+      quote: "Kính chúc đại gia đình tuần mới: Vững bước, an vui, ngập tràn năng lượng!",
+      story: "Khởi động đầu tuần với hơn 8.4 km trong nắng sớm mai. Áo trắng 'Tôi yêu Việt Nam!' rạng ngời sải bước dọc đại lộ ven biển và rẽ qua các góc phố thân thương. Càng chạy càng thấy lòng nhẹ nhàng, bình an và tràn đầy sinh khí.",
+      highlights: [
+        "Cự ly ấn tượng 8.47 km mở đầu tuần mới",
+        "Tiêu hao 771 kcal năng lượng dồi dào",
+        "Sải bước vững chãi trên cung đường biển sớm mai"
+      ]
+    },
+    {
+      id: "run-2026-10-25",
+      date: "25/10/2026",
+      dayOfWeek: "Chủ Nhật",
+      title: "Chủ Nhật Năng Động - 6.14 km",
+      distance: 6.14,
+      duration: "01:07:41",
+      totalTime: "01:08:00",
+      pace: "11:01 /km",
+      calories: 526,
+      cadence: "132 spm",
+      timeStart: "06:20:15 (GMT+7)",
+      route: "Cung đường biển lộng gió & Đại lộ rợp bóng mát",
+      shirtColor: "red",
+      shirtLabel: "Áo Đỏ Thể Thao Năng Động",
+      posterImage: "assets/images/chien-run-20261025-614km.jpg",
+      quote: "Chào ngày mới đầy năng lượng và yêu thương!",
+      story: "Chủ Nhật cuối tuần thật rạng rỡ! Khoác áo thể thao đỏ, vẫy tay chào những người bạn đồng hành bên bờ biển. Pace 11:01/km vừa vặn để tâm trí hoàn toàn thư thái, cơ thể ấm áp, ngắm mặt trời nhô lên trên mặt biển bao la.",
+      highlights: [
+        "Hoàn thành 6.14 km nhẹ nhàng thanh thoát",
+        "526 kcal năng lượng tinh khiết",
+        "Nụ cười rạng rỡ và cái vẫy tay ấm áp ngày Chủ Nhật"
+      ]
+    },
+    {
+      id: "run-2026-10-24",
+      date: "24/10/2026",
+      dayOfWeek: "Thứ Bảy",
+      title: "Bước Chậm Lại, Bình Yên Hơn - 5.11 km",
+      distance: 5.11,
+      duration: "01:08:25",
+      totalTime: "01:08:45",
+      pace: "13:23 /km",
+      calories: 532,
+      cadence: "125 spm",
+      timeStart: "06:51:13 (GMT+7)",
+      route: "Thống Nhất Văn Bá • Lê Lợi • Quang Trung • Ngô Quyền • Trương Văn Hải • Lê Văn Việt",
+      shirtColor: "white",
+      shirtLabel: "Áo Trắng Tinh Khôi - 'Tôi yêu Việt Nam!'",
+      posterImage: "assets/images/chien-run-20261024-511km.jpg",
+      quote: "Bước chậm lại để thấy đời bình yên hơn.",
+      story: "Sáng thứ Bảy thong thả dạo bước và chạy bộ thư giãn 5.11 km. Không cần vội vã, chỉ cần từng bước chân chạm đất đều đặn, ngắm nhìn hoa lá ven đường khoe sắc và tận hưởng sự bình yên tuyệt đối của buổi sớm.",
+      highlights: [
+        "Pace dưỡng sinh 13:23 /km bảo vệ khớp tối đa",
+        "532 kcal đốt cháy nhẹ nhàng",
+        "Cảm nhận từng khoảnh khắc bình yên của cuộc sống"
+      ]
+    },
+    {
+      id: "run-2026-10-23",
+      date: "23/10/2026",
+      dayOfWeek: "Thứ Sáu",
+      title: "Mỗi Bước Chân, Thêm Yêu Cuộc Sống - 9.31 km",
+      distance: 9.31,
+      duration: "01:29:43",
+      totalTime: "01:30:15",
+      pace: "9:38 /km",
+      calories: 697,
+      cadence: "135 spm",
+      timeStart: "06:10:00 (GMT+7)",
+      route: "Tuyến ven hồ & Đại lộ cây xanh ngập tràn ánh nắng",
+      shirtColor: "blue",
+      shirtLabel: "Áo Xanh Dương - 'Tôi yêu Việt Nam!'",
+      posterImage: "assets/images/chien-run-20261023-931km.jpg",
+      quote: "Bền bỉ mỗi ngày – Rạng ngời sức sống ❤️",
+      story: "Một buổi sáng thứ Sáu tuyệt vời với cự ly gần 10 km (9.31 km)! Sải bước cùng áo xanh 'Tôi yêu Việt Nam!', nhịp độ 9:38/km cực kỳ ổn định, mồ hôi toát đều và tinh thần sảng khoái vô cùng. Bền bỉ mỗi ngày là món quà lớn nhất cho sức khỏe.",
+      highlights: [
+        "Cự ly đỉnh cao 9.31 km trong 1h29m",
+        "Pace 9:38 /km chuẩn nhịp Zone 2 dẻo dai",
+        "Tiêu hao 697 kcal, giải phóng năng lượng tuyệt vời"
+      ]
+    },
     {
       id: "run-2026-10-18",
       date: "18/10/2026",
@@ -306,6 +426,36 @@ const BLOG_DATA = {
   ],
 
   gallery: [
+    {
+      title: "Tuần Mới Tràn Đầy Năng Lượng! - 7.15 km",
+      subtitle: "Áo đỏ sao vàng 'Tôi yêu Việt Nam!' rực rỡ nắng mai",
+      image: "assets/images/chien-run-20261028-715km.jpg",
+      badge: "28/10/2026 • 7.15 km"
+    },
+    {
+      title: "Tuần Mới Vững Bước, An Vui! - 8.47 km",
+      subtitle: "Áo trắng tinh khôi sải bước bình minh phố biển",
+      image: "assets/images/chien-run-20261026-847km.jpg",
+      badge: "26/10/2026 • 8.47 km"
+    },
+    {
+      title: "Chủ Nhật Năng Động - 6.14 km",
+      subtitle: "Áo đỏ thể thao, nụ cười chào ngày mới",
+      image: "assets/images/chien-run-20261025-614km.jpg",
+      badge: "25/10/2026 • 6.14 km"
+    },
+    {
+      title: "Bước Chậm Lại, Bình Yên Hơn - 5.11 km",
+      subtitle: "Thong thả dạo bước dưỡng sinh giữa ngập tràn hoa lá",
+      image: "assets/images/chien-run-20261024-511km.jpg",
+      badge: "24/10/2026 • 5.11 km"
+    },
+    {
+      title: "Mỗi Bước Chân, Thêm Yêu Cuộc Sống - 9.31 km",
+      subtitle: "Bền bỉ mỗi ngày, rạng ngời sức sống tuổi 60+",
+      image: "assets/images/chien-run-20261023-931km.jpg",
+      badge: "23/10/2026 • 9.31 km"
+    },
     {
       title: "Cung Đường Võ Nguyên Giáp - 7.47 km",
       subtitle: "Áo xanh hy vọng, nụ cười rạng rỡ",
